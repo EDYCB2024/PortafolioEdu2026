@@ -2,7 +2,7 @@ export const translations = {
   en: {
     profile: {
       name: 'Eduardo Castillo',
-      title: 'Full-Stack Developer',
+      title: 'Electronics Technician',
       birthday: '28 years',
       location: 'Caracas, Venezuela',
       labels: {
@@ -21,26 +21,26 @@ export const translations = {
     about: {
       title: 'About Me',
       description: [
-        "I'm Eduardo Castillo, a Full-Stack Developer specializing in web development and creating innovative digital solutions. I enjoy turning complex problems into simple, beautiful and intuitive applications.",
-        "My job is to build your website or application so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I've worked with various technologies including React, Next.js, Node.js, and modern cloud platforms.",
+        "I'm Eduardo Castillo, an Electronics Technician with a focus on electronic repair and technical analysis. I have excellent problem-solving skills and the ability to perform well in a team environment.",
+        "My background includes extensive experience in point-of-sale (POS) systems, mining equipment maintenance, and industrial electrical technology. I'm also expanding my skills into Data Analysis and Full-Stack Development, bringing a technical and analytical approach to every project.",
       ],
       servicesTitle: "What I'm Doing",
       services: [
         {
-          title: 'Frontend Development',
-          description: 'Building modern, responsive web applications with React, Next.js, and TypeScript.',
+          title: 'Electronic Systems Repair',
+          description: 'Expertise in diagnosing and repairing POS systems and complex electronic equipment.',
         },
         {
-          title: 'Backend Development',
-          description: 'Creating robust APIs and server-side solutions with Node.js and modern frameworks.',
+          title: 'Technical Analysis',
+          description: 'Analytical approach to operational processes and hardware configuration.',
         },
         {
-          title: 'Mobile Development',
-          description: 'Professional development of mobile applications with React Native and modern tools.',
+          title: 'Hardware Maintenance',
+          description: 'Preventive and corrective maintenance for industrial and digital mining machinery.',
         },
         {
-          title: 'UI/UX Design',
-          description: 'Designing intuitive and beautiful user interfaces that enhance user experience.',
+          title: 'Electrical Technology',
+          description: 'Installation and maintenance of electrical systems, refrigeration, and air conditioning.',
         },
       ],
     },
@@ -80,7 +80,7 @@ export const translations = {
   es: {
     profile: {
       name: 'Eduardo Castillo',
-      title: 'Desarrollador Full-Stack',
+      title: 'Técnico en Electrónica',
       birthday: '28 años',
       location: 'Caracas, Venezuela',
       labels: {
@@ -99,26 +99,26 @@ export const translations = {
     about: {
       title: 'Sobre mí',
       description: [
-        "Soy Eduardo Castillo, un Desarrollador Full-Stack especializado en desarrollo web y en la creación de soluciones digitales innovadoras. Disfruto convirtiendo problemas complejos en aplicaciones sencillas, hermosas e intuitivas.",
-        "Mi trabajo es construir tu sitio web o aplicación para que sea funcional y fácil de usar, pero al mismo tiempo atractiva. Además, añado un toque personal a tu producto y me aseguro de que sea llamativo y sencillo de utilizar. Mi objetivo es transmitir tu mensaje e identidad de la forma más creativa. He trabajado con diversas tecnologías, incluyendo React, Next.js, Node.js y plataformas en la nube modernas.",
+        "Soy Eduardo Castillo, un Técnico en Electrónica con enfoque en reparación electrónica y análisis técnico. Poseo excelentes habilidades para la resolución de problemas y capacidad para desempeñarme en equipo.",
+        "Mi trayectoria incluye experiencia extensiva en sistemas de puntos de venta (POS), mantenimiento de equipos de minería y tecnología eléctrica industrial. También estoy expandiendo mis habilidades hacia el Análisis de Datos y el Desarrollo Full-Stack, aportando un enfoque técnico y analítico a cada proyecto.",
       ],
       servicesTitle: 'Lo que hago',
       services: [
         {
-          title: 'Desarrollo Frontend',
-          description: 'Construcción de aplicaciones web modernas y adaptables con React, Next.js y TypeScript.',
+          title: 'Reparación de Sistemas Electrónicos',
+          description: 'Experiencia en diagnóstico y reparación de sistemas POS y equipos electrónicos complejos.',
         },
         {
-          title: 'Desarrollo Backend',
-          description: 'Creación de APIs robustas y soluciones del lado del servidor con Node.js y frameworks modernos.',
+          title: 'Análisis Técnico',
+          description: 'Enfoque analítico para procesos operativos y configuración de hardware.',
         },
         {
-          title: 'Desarrollo Móvil',
-          description: 'Desarrollo profesional de aplicaciones móviles con React Native y herramientas modernas.',
+          title: 'Mantenimiento de Hardware',
+          description: 'Mantenimiento preventivo y correctivo para maquinaria industrial y de minería digital.',
         },
         {
-          title: 'Diseño UI/UX',
-          description: 'Diseño de interfaces de usuario intuitivas y hermosas que mejoran la experiencia del usuario.',
+          title: 'Tecnología Eléctrica',
+          description: 'Instalación y mantenimiento de sistemas eléctricos, refrigeración y aire acondicionado.',
         },
       ],
     },
@@ -159,8 +159,8 @@ export const translations = {
 
 export const profileData = {
   name: 'Eduardo Castillo',
-  title: 'Full-Stack Developer',
-  avatar: '/professional-developer-avatar.png',
+  title: 'Electronics Technician',
+  avatar: '/eduardo-profile.png',
   email: 'edcastilloblanco@gmail.com',
   birthday: '28 years',
   location: 'Caracas, Venezuela',
@@ -173,151 +173,115 @@ export const profileData = {
 export const aboutData = {
   services: [
     {
-      icon: 'Code',
-      title: 'Frontend Development',
-      description: 'Building modern, responsive web applications with React, Next.js, and TypeScript.',
+      icon: 'Zap',
+      title: 'Electronic Systems Repair',
+      description: 'Expertise in diagnosing and repairing POS systems and complex electronic equipment.',
     },
     {
-      icon: 'Zap',
-      title: 'Backend Development',
-      description: 'Creating robust APIs and server-side solutions with Node.js and modern frameworks.',
+      icon: 'Code',
+      title: 'Technical Analysis',
+      description: 'Analytical approach to operational processes and hardware configuration.',
     },
     {
       icon: 'Smartphone',
-      title: 'Mobile Development',
-      description: 'Professional development of mobile applications with React Native and modern tools.',
+      title: 'Hardware Maintenance',
+      description: 'Preventive and corrective maintenance for industrial and digital mining machinery.',
     },
     {
       icon: 'PenTool',
-      title: 'UI/UX Design',
-      description: 'Designing intuitive and beautiful user interfaces that enhance user experience.',
+      title: 'Electrical Technology',
+      description: 'Installation and maintenance of electrical systems, refrigeration, and air conditioning.',
     },
   ],
   testimonials: [
     {
       avatar: '/professional-man.jpg',
-      name: 'Daniel Lewis',
-      text: 'Eduardo was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.',
+      name: 'VA & Technology',
+      text: 'Eduardo is a highly skilled technician who solved our POS issues efficiently.',
     },
     {
       avatar: '/professional-woman-diverse.png',
-      name: 'Jessica Miller',
-      text: 'Eduardo was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.',
-    },
-    {
-      avatar: '/professional-man.jpg',
-      name: 'Michael Chen',
-      text: 'Outstanding work! Eduardo delivered a high-quality product that exceeded our expectations. His attention to detail is remarkable.',
-    },
-    {
-      avatar: '/professional-woman-diverse.png',
-      name: 'Sarah Johnson',
-      text: 'Professional, creative, and highly skilled. Eduardo is the developer you want on your team for any complex project.',
+      name: 'Ubiipagos',
+      text: 'Great team player with excellent technical knowledge.',
     },
   ],
   clients: [
-    { name: 'TechCorp', logo: '/tech-company-logo.jpg' },
-    { name: 'StartupHub', logo: '/startup-logo.png' },
-    { name: 'DesignStudio', logo: '/design-agency-logo.png' },
-    { name: 'CodeLabs', logo: '/software-company-logo.png' },
-    { name: 'WebSolutions', logo: '/web-agency-logo.jpg' },
-    { name: 'AppMakers', logo: '/app-development-logo.jpg' },
+    { name: 'VA & Technology', logo: '/client-logo-1.png' },
+    { name: 'Ubiipagos', logo: '/client-logo-2.png' },
+    { name: 'Cryptonica', logo: '/client-logo-3.png' },
+    { name: 'Inces', logo: '/client-logo-4.png' },
   ],
 }
 
 export const resumeData = {
   education: [
     {
-      title: 'University of California, Berkeley',
-      period: '2013 — 2017',
-      description:
-        'Studied Computer Science with a focus on web technologies and software engineering principles.',
+      title: 'Instituto Nacional de Capacitación y Educación Socialista (INCES)',
+      period: '2015 — 2016',
+      description: 'Maintenance Electrician Certification.',
     },
     {
-      title: 'Frontend Development Bootcamp',
-      period: '2017 — 2018',
-      description: 'Intensive program covering modern JavaScript frameworks, responsive design, and UX principles.',
+      title: 'U.E Colegio Jardin Franciscano',
+      period: '2010 — 2015',
+      description: 'High School Diploma.',
     },
   ],
   experience: [
     {
-      title: 'Senior Full-Stack Developer',
-      period: '2020 — Present',
-      description:
-        'Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and implementing best practices.',
+      title: 'Technical Service Analyst - VA & Technology',
+      period: 'Dec 2023 — Present',
+      description: 'Responsible for the repair and maintenance of point-of-sale (POS) systems.',
     },
     {
-      title: 'Full-Stack Developer',
-      period: '2018 — 2020',
-      description:
-        'Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create seamless user experiences.',
+      title: 'Mining Equipment Repair Technician - Cryptonica',
+      period: 'Apr 2021 — May 2022',
+      description: 'Repair, installation, and maintenance of digital mining equipment.',
+    },
+    {
+      title: 'Operation Analyst - Ubiipagos',
+      period: 'Jul 2019 — Apr 2021',
+      description: 'Diagnosis and configuration of points of sale, ensuring operational efficiency.',
+    },
+    {
+      title: 'Point of Sale (POS) Technician - RPG Soluciones',
+      period: 'Feb 2019 — Jun 2019',
+      description: 'Specialized in the repair and servicing of various POS terminals.',
+    },
+    {
+      title: 'Maintenance Electrician - Escuela Campo Alegre',
+      period: 'Sep 2016 — Dec 2018',
+      description: 'Assistant in electrical systems, refrigeration, and air conditioning maintenance.',
     },
   ],
   skills: [
-    { name: 'Web Design', level: 90 },
-    { name: 'Frontend Development', level: 95 },
-    { name: 'Backend Development', level: 85 },
-    { name: 'Database Design', level: 80 },
+    { name: 'POS Systems Repair', level: 95 },
+    { name: 'Electronics & Hardware', level: 90 },
+    { name: 'Electrical Technology', level: 85 },
+    { name: 'Data Analysis', level: 75 },
     { name: 'English (C2)', level: 100 },
   ],
 }
 
 export const portfolioData = {
-  categories: ['all', 'web design', 'applications', 'web development'],
+  categories: ['all', 'electronics', 'maintenance', 'analysis'],
   projects: [
     {
-      title: 'E-Commerce Platform',
-      category: 'web development',
+      title: 'POS Diagnostic System',
+      category: 'analysis',
       image: '/modern-ecommerce-website.png',
-      description: 'Full-stack e-commerce solution with payment integration',
-      tech: ['Next.js', 'Node.js', 'PostgreSQL'],
+      description: 'Implementation of a specialized diagnostic system for POS terminal maintenance.',
+      tech: ['Hardware', 'Analysis', 'Systems'],
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/EDYCB2024/ecommerce',
+      githubUrl: 'https://github.com/EDYCB2024/pos-diagnostic',
     },
     {
-      title: 'Task Management App',
-      category: 'applications',
+      title: 'Mining Rig Optimization',
+      category: 'maintenance',
       image: '/task-management-interface.png',
-      description: 'Collaborative task manager with real-time updates',
-      tech: ['React', 'Firebase', 'TypeScript'],
+      description: 'Preventive maintenance plan for a digital mining equipment fleet.',
+      tech: ['Electronics', 'Maintenance', 'Planning'],
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/EDYCB2024/taskmanager',
-    },
-    {
-      title: 'Portfolio Website',
-      category: 'web design',
-      image: '/minimalist-portfolio-design.jpg',
-      description: 'Modern portfolio design for creative professionals',
-      tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/EDYCB2024/portfolio',
-    },
-    {
-      title: 'Social Media Dashboard',
-      category: 'web development',
-      image: '/analytics-dashboard.png',
-      description: 'Analytics dashboard with data visualization',
-      tech: ['React', 'D3.js', 'Express'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/EDYCB2024/dashboard',
-    },
-    {
-      title: 'Mobile Banking App',
-      category: 'applications',
-      image: '/banking-app-interface.png',
-      description: 'Secure mobile banking application',
-      tech: ['React Native', 'Node.js', 'MongoDB'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/EDYCB2024/banking',
-    },
-    {
-      title: 'Restaurant Website',
-      category: 'web design',
-      image: '/restaurant-website-design.png',
-      description: 'Elegant restaurant website with online ordering',
-      tech: ['Next.js', 'Sanity CMS', 'Stripe'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/EDYCB2024/restaurant',
+      githubUrl: 'https://github.com/EDYCB2024/mining-ops',
     },
   ],
 }
