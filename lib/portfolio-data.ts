@@ -160,7 +160,7 @@ export const translations = {
 export const profileData = {
   name: 'Eduardo Castillo',
   title: 'Electronics Technician',
-  avatar: '/eduardo-profile.png',
+  avatar: '/eduardo-photo.png',
   email: 'edcastilloblanco@gmail.com',
   birthday: '28 years',
   location: 'Caracas, Venezuela',
