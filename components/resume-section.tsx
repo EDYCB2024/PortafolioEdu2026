@@ -52,18 +52,21 @@ export function ResumeSection({ data }: ResumeSectionProps) {
       {/* Skills */}
       <div>
         <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">{data.skillsLabel || data.skills}</h3>
-        <div className="space-y-5 md:space-y-6">
-          {data.skills.map((skill: any, index: number) => (
-            <div key={index}>
-              <div className="flex justify-between mb-2">
-                <span className="text-xs md:text-sm font-medium text-foreground">{skill.name}</span>
-                <span className="text-xs md:text-sm text-muted-foreground">{skill.level}%</span>
-              </div>
-              <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-accent rounded-full transition-all duration-1000 ease-out"
-                  style={{ width: `${skill.level}%` }}
-                />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {data.skills.map((skillGroup: any, groupIndex: number) => (
+            <div key={groupIndex} className="space-y-4">
+              <h4 className="text-sm md:text-base font-bold text-accent uppercase tracking-wider">
+                {skillGroup.category}
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {skillGroup.items.map((skill: string, index: number) => (
+                  <div
+                    key={index}
+                    className="px-4 py-2 bg-secondary border border-border rounded-xl text-xs md:text-sm font-medium text-foreground hover:border-accent transition-colors"
+                  >
+                    {skill}
+                  </div>
+                ))}
               </div>
             </div>
           ))}

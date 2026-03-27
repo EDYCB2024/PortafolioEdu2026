@@ -152,7 +152,7 @@
   animation: pulse-slow 3s ease-in-out infinite;
 }
 
-/* Added marquee animations for testimonials and clients */
+/* Added marquee animations for proyectos and clients */
 @keyframes marquee {
   0% {
     transform: translateX(0);
