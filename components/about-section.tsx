@@ -1,6 +1,6 @@
 'use client'
 
-import { PenTool, Code, Smartphone, Zap, Eye, ExternalLink, X, Briefcase, BookOpen } from 'lucide-react'
+import { PenTool, Code, Smartphone, Zap, Eye, ExternalLink, X, Briefcase, BookOpen, Activity } from 'lucide-react'
 import { useState } from 'react'
 
 interface AboutSectionProps {
@@ -16,6 +16,7 @@ export function AboutSection({ data }: AboutSectionProps) {
     Zap,
     Smartphone,
     PenTool,
+    Activity,
   }
 
   return (

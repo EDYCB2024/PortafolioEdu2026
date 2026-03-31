@@ -29,7 +29,7 @@ export function ProfileSidebar({ data, lang }: ProfileSidebarProps) {
         </div>
 
         <h1 className="text-xl md:text-2xl font-bold text-foreground mb-1">{data.name}</h1>
-        <p className="text-xs md:text-sm text-muted-foreground bg-secondary px-3 md:px-4 py-1 rounded-lg">
+        <p className="text-xs md:text-sm text-muted-foreground bg-secondary px-3 md:px-4 py-1 rounded-lg text-center">
           {data.title}
         </p>
       </div>
@@ -59,8 +59,8 @@ export function ProfileSidebar({ data, lang }: ProfileSidebarProps) {
             <Calendar className="w-5 h-5 text-accent" />
           </div>
           <div className="flex-1">
-            <p className="text-xs text-muted-foreground uppercase mb-1">{labels.birthday}</p>
-            <p className="text-sm text-foreground">{data.birthday}</p>
+            <p className="text-xs text-muted-foreground uppercase mb-1">{data.ageLabel || 'Age'}</p>
+            <p className="text-sm text-foreground">{data.age}</p>
           </div>
         </div>
 

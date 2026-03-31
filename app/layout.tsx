@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Eduardo Castillo - Full-Stack Developer',
-  description: 'Portfolio of John Doe, a Full-Stack Developer specializing in modern web technologies',
+  title: 'Eduardo Castillo - Desarrollador Full-Stack',
+  description: 'Portafolio de Eduardo Castillo, Desarrollador Full-Stack especializado en tecnologías web modernas',
   generator: 'v0.app',
   icons: {
     icon: [

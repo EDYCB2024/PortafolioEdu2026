@@ -20,7 +20,7 @@ import {
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('about')
-  const [lang, setLang] = useState<'en' | 'es'>('en')
+  const [lang, setLang] = useState<'en' | 'es'>('es')
   const t = translations[lang]
 
   const navItems = ['about', 'resume', 'portfolio', 'blog', 'contact']
@@ -28,10 +28,10 @@ export default function Home() {
   // Pre-process data with translations
   const profileTranslated = { ...profileData, ...t.profile }
   const resumeTranslated = { ...resumeData, ...t.resume }
-  
+
   // Merge portfolio projects with translations to keep images and tech stack
-  const portfolioTranslated = { 
-    ...portfolioData, 
+  const portfolioTranslated = {
+    ...portfolioData,
     ...t.portfolio,
     projects: portfolioData.projects.map((p, i) => ({
       ...p,
@@ -40,7 +40,7 @@ export default function Home() {
   }
 
   const contactTranslated = { ...contactData, ...t.contact }
-  
+
   // Merge about data with translations
   const aboutTranslated = {
     ...aboutData,
@@ -75,8 +75,8 @@ export default function Home() {
                   key={section}
                   onClick={() => setActiveSection(section)}
                   className={`px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium capitalize transition-colors whitespace-nowrap flex-shrink-0 ${activeSection === section
-                      ? 'text-foreground bg-accent/10'
-                      : 'text-muted-foreground hover:text-foreground hover:bg-secondary'
+                    ? 'text-foreground bg-accent/10'
+                    : 'text-muted-foreground hover:text-foreground hover:bg-secondary'
                     }`}
                 >
                   {t.nav[section as keyof typeof t.nav] || section}

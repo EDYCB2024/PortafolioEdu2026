@@ -8,14 +8,16 @@ import {
   Zap,
   Code,
   Smartphone,
-  PenTool
+  PenTool,
+  Activity
 } from 'lucide-react'
 
 export const translations = {
   en: {
     profile: {
-      title: 'Electronics Technician',
+      title: 'Electronics Technician & Full-Stack Developer',
       location: 'Caracas, Venezuela',
+      ageLabel: 'Age',
     },
     nav: {
       about: 'About',
@@ -32,20 +34,20 @@ export const translations = {
       servicesTitle: "What I'm Doing",
       services: [
         {
-          title: 'Electronic Systems Repair',
-          description: 'Expertise in diagnosing and repairing POS systems and complex electronic equipment.',
+          title: 'Data Analysis',
+          description: 'Transforming complex data into actionable insights for strategic decision making.',
         },
         {
-          title: 'Technical Analysis',
-          description: 'Analytical approach to operational processes and hardware configuration.',
+          title: 'Full-Stack Development',
+          description: 'Building robust, scalable web applications from end-to-end using modern technologies.',
         },
         {
-          title: 'Hardware Maintenance',
-          description: 'Preventive and corrective maintenance for industrial and digital mining machinery.',
+          title: 'PCB & Electronics Repair',
+          description: 'Expertise in component-level diagnosis and advanced repair of electronic boards.',
         },
         {
-          title: 'Electrical Technology',
-          description: 'Installation and maintenance of electrical systems, refrigeration, and air conditioning.',
+          title: 'Process Automation',
+          description: 'Optimizing workflows and organizational efficiency through digital tools and scripts.',
         },
       ],
       experienciaTitle: "Work Experience",
@@ -116,9 +118,6 @@ export const translations = {
       title: 'Portfolio',
       categoriesTrans: {
         all: 'All',
-        'web design': 'Web Design',
-        applications: 'Applications',
-        'ai assistant': 'AI Assistant',
         'web development': 'Web Development',
       },
       previewLabel: 'More info',
@@ -129,8 +128,7 @@ export const translations = {
         { title: 'AI Virtual Assistant', description: 'An advanced AI virtual assistant capable of natural language processing, answering complex queries, and task automation with a friendly personality.' },
         { title: 'Pos manager', description: 'Comprehensive Point of Sale management system for businesses, featuring inventory tracking and sales reports.' },
         { title: 'Maravilla Peluches', description: 'Online store for high-quality plush toys with a friendly interface and secure checkout.' },
-        { title: 'POS Diagnostic System', description: 'Implementation of a specialized diagnostic system for POS terminal maintenance.' },
-        { title: 'Mining Rig Optimization', description: 'Preventive maintenance plan for a digital mining equipment fleet.' },
+        { title: 'Currency Monitor & Dashboard', description: 'A high-end financial dashboard that tracks the Venezuelan Bolívar across multiple exchange rates (BCV, Paralelo, Binance P2P) with real-time updates and arbitrage analysis.' },
       ],
     },
     contact: {
@@ -155,8 +153,9 @@ export const translations = {
   },
   es: {
     profile: {
-      title: 'Técnico Electrónico',
+      title: 'Técnico en Electrónica y Desarrollador Full Stack',
       location: 'Caracas, Venezuela',
+      ageLabel: 'Edad',
     },
     nav: {
       about: 'Sobre mí',
@@ -173,20 +172,20 @@ export const translations = {
       servicesTitle: 'Lo que hago',
       services: [
         {
-          title: 'Reparación de Sistemas Electrónicos',
-          description: 'Experiencia en diagnóstico y reparación de sistemas POS y equipos electrónicos complejos.',
+          title: 'Análisis de Datos',
+          description: 'Transformación de datos complejos en información valiosa para la toma de decisiones.',
         },
         {
-          title: 'Análisis Técnico',
-          description: 'Enfoque analítico para procesos operativos y configuración de hardware.',
+          title: 'Desarrollo Front y Back',
+          description: 'Creación de aplicaciones web robustas y escalables de extremo a extremo.',
         },
         {
-          title: 'Mantenimiento de Hardware',
-          description: 'Mantenimiento preventivo y correctivo para maquinaria industrial y de minería digital.',
+          title: 'Reparación de Tarjetas Electrónicas',
+          description: 'Diagnóstico a nivel de componentes y reparación de tarjetas electrónicas.',
         },
         {
-          title: 'Tecnología Eléctrica',
-          description: 'Instalación y mantenimiento de sistemas eléctricos, refrigeración y aire acondicionado.',
+          title: 'Automatización de Procesos',
+          description: 'Optimización de flujos de trabajo mediante herramientas digitales y scripts.',
         },
       ],
       experienciaTitle: "Experiencia Laboral",
@@ -225,7 +224,7 @@ export const translations = {
         { title: 'Instituto Nacional de Capacitación y Educación Socialista (INCES)', description: 'Certificación de Electricista de Mantenimiento.' },
         { title: 'U.E Colegio Jardin Franciscano', description: 'Título de Bachiller.' },
       ],
-      experienceLabel: 'Experiencia',
+      experienceLabel: 'Experiencia laboral',
       experience: [
         { title: 'Analista de Servicio Técnico - VA & Technology', description: 'Responsable de la reparación y mantenimiento de sistemas de puntos de venta (POS).' },
         { title: 'Técnico de Reparación de Equipos de Minería - Cryptonica', description: 'Reparación, instalación y mantenimiento de equipos de minería digital.' },
@@ -257,9 +256,6 @@ export const translations = {
       title: 'Proyectos',
       categoriesTrans: {
         all: 'Todos',
-        'web design': 'Diseño Web',
-        applications: 'Aplicaciones',
-        'ai assistant': 'Asistente IA',
         'web development': 'Desarrollo Web',
       },
       previewLabel: 'Más información',
@@ -270,8 +266,7 @@ export const translations = {
         { title: 'Asistente Virtual IA', description: 'Un asistente virtual de IA avanzado capaz de procesar lenguaje natural, responder consultas complejas y automatizar tareas con una personalidad amigable.' },
         { title: 'Pos manager', description: 'Sistema integral de gestión de puntos de venta para empresas, con seguimiento de inventario y reportes de ventas.' },
         { title: 'Maravilla Peluches', description: 'Tienda en línea de peluches de alta calidad con una interfaz amigable y pago seguro.' },
-        { title: 'Sistema de Diagnóstico POS', description: 'Implementación de un sistema de diagnóstico especializado para el mantenimiento de terminales POS.' },
-        { title: 'Optimización de Rigs de Minería', description: 'Plan de mantenimiento preventivo para una flota de equipos de minería digital.' },
+        { title: 'Monitor de Divisas & Calculadora', description: 'Tablero financiero de alta gama para el seguimiento del valor del Bolívar frente a diversas divisas en tiempo real, con análisis de brecha cambiaria.' },
       ],
     },
     contact: {
@@ -298,10 +293,10 @@ export const translations = {
 
 export const profileData = {
   name: 'Eduardo Castillo',
-  title: 'Electronics Technician',
+  title: 'Técnico en Electrónica y Desarrollador Full Stack',
   avatar: '/eduardo-photo.png',
   email: 'edcastilloblanco@gmail.com',
-  birthday: '28 years',
+  age: '28 years',
   location: 'Caracas, Venezuela',
   social: {
     github: 'https://github.com/EDYCB2024',
@@ -312,24 +307,20 @@ export const profileData = {
 export const aboutData = {
   services: [
     {
-      icon: 'Zap',
-      title: 'Electronic Systems Repair',
-      description: 'Expertise in diagnosing and repairing POS systems and complex electronic equipment.',
+      icon: 'Activity',
+      title: 'Análisis de Datos',
     },
     {
       icon: 'Code',
-      title: 'Technical Analysis',
-      description: 'Analytical approach to operational processes and hardware configuration.',
+      title: 'Desarrollo Front y Back',
     },
     {
       icon: 'Smartphone',
-      title: 'Hardware Maintenance',
-      description: 'Preventive and corrective maintenance for industrial and digital mining machinery.',
+      title: 'Reparación de Tarjetas Electrónicas',
     },
     {
-      icon: 'PenTool',
-      title: 'Electrical Technology',
-      description: 'Installation and maintenance of electrical systems, refrigeration, and air conditioning.',
+      icon: 'Zap',
+      title: 'Automatización de Procesos',
     },
   ],
   experiencia: [
@@ -428,11 +419,11 @@ export const resumeData = {
 }
 
 export const portfolioData = {
-  categories: ['all', 'applications', 'ai assistant', 'web development'],
+  categories: ['all', 'web development'],
   projects: [
     {
       title: 'AI Virtual Assistant',
-      category: 'ai assistant',
+      category: 'web development',
       image: '/ai_assistant.png',
       description: 'An advanced AI virtual assistant capable of natural language processing, answering complex queries, and task automation with a friendly personality.',
       tech: ['Next.js', 'LangChain', 'OpenAI', 'TypeScript', 'Tailwind CSS'],
@@ -441,7 +432,7 @@ export const portfolioData = {
     },
     {
       title: 'Pos manager 2026',
-      category: 'applications',
+      category: 'web development',
       image: '/pos_manager_real.png',
       description: 'Comprehensive Point of Sale management system for businesses, featuring inventory tracking and sales reports.',
       tech: ['Next.js', 'Tailwind CSS', 'Supabase', 'SQL & PostgreSQL'],
@@ -450,30 +441,21 @@ export const portfolioData = {
     },
     {
       title: 'Maravilla Peluches',
-      category: 'applications',
+      category: 'web development',
       image: '/maravilla_peluches.png',
       description: 'Online store for high-quality plush toys with a friendly interface and secure checkout.',
       tech: ['Next.js', 'Tailwind CSS', 'Vercel'],
-      liveUrl: 'https://maravilla-peluches.vercel.app/',
+      liveUrl: 'https://maravilla-peluches-v2.vercel.app/',
       githubUrl: 'https://github.com/EDYCB2024/maravilla-peluches',
     },
     {
-      title: 'POS Diagnostic System',
-      category: 'applications',
-      image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800',
-      description: 'Implementation of a specialized diagnostic system for POS terminal maintenance.',
-      tech: ['Hardware', 'Analysis', 'Systems'],
-      liveUrl: '#',
-      githubUrl: '#',
-    },
-    {
-      title: 'Mining Rig Optimization',
+      title: 'Monitor de Divisas & Calculadora',
       category: 'web development',
-      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800',
-      description: 'Preventive maintenance plan for a digital mining equipment fleet.',
-      tech: ['Electronics', 'Maintenance', 'Planning'],
-      liveUrl: '#',
-      githubUrl: '#',
+      image: '/calculadora_divisas.png',
+      description: 'Calculadora en tiempo real para el valor del Bolívar frente a diferentes divisas, con múltiples tasas de referencia y soporte para Cashea.',
+      tech: ['Next.js', 'Tailwind CSS', 'Material Symbols', 'Vercel'],
+      liveUrl: 'https://calculadora-de-diferencias.vercel.app/',
+      githubUrl: 'https://github.com/EDYCB2024/CALCULADORA-DE-DIFERENCIAS',
     },
   ],
 }
