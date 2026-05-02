@@ -18,6 +18,8 @@ export const translations = {
       title: 'Electronics Technician & Full-Stack Developer',
       location: 'Caracas, Venezuela',
       ageLabel: 'Age',
+      age: '28',
+      downloadCV: 'Download CV',
     },
     nav: {
       about: 'About',
@@ -156,6 +158,8 @@ export const translations = {
       title: 'Técnico en Electrónica y Desarrollador Full Stack',
       location: 'Caracas, Venezuela',
       ageLabel: 'Edad',
+      age: '28',
+      downloadCV: 'Descargar CV',
     },
     nav: {
       about: 'Sobre mí',
@@ -296,7 +300,7 @@ export const profileData = {
   title: 'Técnico en Electrónica y Desarrollador Full Stack',
   avatar: '/eduardo-photo.png',
   email: 'edcastilloblanco@gmail.com',
-  age: '28 years',
+  age: '28',
   location: 'Caracas, Venezuela',
   social: {
     github: 'https://github.com/EDYCB2024',

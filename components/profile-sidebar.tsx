@@ -1,4 +1,4 @@
-import { Mail, Calendar, MapPin } from 'lucide-react'
+import { Mail, Calendar, MapPin, Download } from 'lucide-react'
 import { Github, Linkedin } from 'lucide-react'
 
 interface ProfileSidebarProps {
@@ -75,8 +75,20 @@ export function ProfileSidebar({ data, lang }: ProfileSidebarProps) {
         </div>
       </div>
 
+      {/* Download CV Button */}
+      <div className="mt-6 md:mt-8">
+        <a
+          href="/CV Eduardo 2026 (esp).pdf"
+          download="Eduardo_Castillo_CV.pdf"
+          className="flex items-center justify-center gap-2 w-full py-3 px-4 bg-accent text-accent-foreground rounded-xl font-medium hover:bg-accent/90 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-accent/20"
+        >
+          <Download className="w-5 h-5" />
+          {data.downloadCV || 'Download CV'}
+        </a>
+      </div>
+
       {/* Social Links */}
-      <div className="flex items-center justify-center gap-4 mt-4 md:mt-6 pt-4 md:pt-6 border-t border-border">
+      <div className="flex items-center justify-center gap-4 mt-6 pt-6 border-t border-border">
         <a
           href={data.social.github}
           target="_blank"
